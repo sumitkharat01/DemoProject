@@ -1,6 +1,7 @@
 package com.demo;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class ArrayListSample {
@@ -12,8 +13,9 @@ public class ArrayListSample {
 		list.add("Vandana");
 		list.add("Karan");
 		
-		for(String s:list) {
-			System.out.println(s);
+		Iterator itr=list.iterator();
+		while(itr.hasNext()) {
+			System.out.println(itr.next());
 		}
 	}
 }

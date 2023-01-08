@@ -2,6 +2,4 @@
 .classpath
 .project
 .settings/
-mintty.exe.stackdump
 bash.exe.stackdump
-.recommenders
